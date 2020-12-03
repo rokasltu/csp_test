@@ -14,8 +14,8 @@ class PageContentMobile extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
         PageDetails(
-          caption: '',
-          details: '',
+          caption: caption,
+          details: details,
         ),
         SizedBox(
           height: 100,
