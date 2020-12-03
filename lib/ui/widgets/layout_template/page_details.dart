@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:modern_it_homepage/styles/text_styles.dart';
+import 'package:modern_it_homepage/ui/styles/text_styles.dart';
 import 'package:responsive_builder/responsive_builder.dart';
 
 class PageDetails extends StatelessWidget {

@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:modern_it_homepage/constants/app_colors.dart';
-import 'package:modern_it_homepage/constants/common_names.dart';
-import 'package:modern_it_homepage/routing/route_names.dart';
-import 'package:modern_it_homepage/widgets/navigation_drawer/drawer_item.dart';
-import 'package:modern_it_homepage/widgets/navigation_drawer/navigation_drawer_header.dart';
+import 'package:modern_it_homepage/services/routing/route_names.dart';
+import 'package:modern_it_homepage/ui/styles/app_colors.dart';
+import 'package:modern_it_homepage/ui/styles/common_names.dart';
+import 'package:modern_it_homepage/ui/widgets/navigation_drawer/drawer_item.dart';
+import 'package:modern_it_homepage/ui/widgets/navigation_drawer/navigation_drawer_header.dart';
 
 class NavigationDrawer extends StatelessWidget {
   @override

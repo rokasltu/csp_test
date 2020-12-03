@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:modern_it_homepage/constants/common_names.dart';
-import 'package:modern_it_homepage/routing/route_names.dart';
+import 'package:modern_it_homepage/services/routing/route_names.dart';
+import 'package:modern_it_homepage/ui/styles/common_names.dart';
 
 import 'navbar_item.dart';
 import 'navbar_logo.dart';
@@ -18,11 +18,17 @@ class NavigationBarTabletDesktop extends StatelessWidget {
               mainAxisSize: MainAxisSize.min,
               children: [
                 NavBarItem(aboutCaption, AboutRoute),
-                SizedBox(width: 21,),
+                SizedBox(
+                  width: 21,
+                ),
                 NavBarItem(whatDoWeDoCaption, WhatWeDoRoute),
-                SizedBox(width: 21,),
+                SizedBox(
+                  width: 21,
+                ),
                 NavBarItem(clientsCaption, ClientsRoute),
-                SizedBox(width: 21,),
+                SizedBox(
+                  width: 21,
+                ),
               ],
             )
           ],

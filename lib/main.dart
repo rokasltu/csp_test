@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:modern_it_homepage/views/layout_template/layout_template.dart';
+import 'package:modern_it_homepage/ui/styles/app_colors.dart';
+import 'package:modern_it_homepage/ui/widgets/layout_template/layout_template.dart';
 
-import 'constants/app_colors.dart';
 import 'locator.dart';
 
 void main() {

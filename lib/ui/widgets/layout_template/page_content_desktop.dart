@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:modern_it_homepage/widgets/call_to_action/call_to_action.dart';
-import 'package:modern_it_homepage/widgets/page_details/page_details.dart';
+import 'package:modern_it_homepage/ui/widgets/layout_template/call_to_action/call_to_action.dart';
+
+import 'page_details.dart';
 
 class PageContentDesktop extends StatelessWidget {
   final String caption;
