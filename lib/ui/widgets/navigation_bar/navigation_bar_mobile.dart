@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:modern_it_homepage/widgets/navigation_bar/navbar_logo.dart';
-
-
-
+import 'package:modern_it_homepage/ui/widgets/navigation_bar/navbar_logo.dart';
 
 class NavigationBarMobile extends StatelessWidget {
   @override
@@ -14,7 +11,8 @@ class NavigationBarMobile extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
           IconButton(
-            icon: Icon(Icons.menu), color: Colors.blue,
+            icon: Icon(Icons.menu),
+            color: Colors.blue,
             onPressed: () {
               return Scaffold.of(context).openDrawer();
             },

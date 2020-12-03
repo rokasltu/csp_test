@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:modern_it_homepage/constants/common_names.dart';
-import 'package:modern_it_homepage/routing/route_names.dart';
-import 'package:modern_it_homepage/views/page/page_view.dart';
+import 'package:modern_it_homepage/ui/styles/common_names.dart';
+import 'package:modern_it_homepage/ui/widgets/layout_template/page_view.dart';
+
+import 'route_names.dart';
 
 Route<dynamic> generateRoute(RouteSettings settings) {
   switch (settings.name) {
