@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:modern_it_homepage/ui/widgets/navigation_bar/navbar_item.dart';
+import 'package:modern_it_homepage/ui/widgets/navigation_bar/navbar_item/navbar_item.dart';
 
 class DrawerItem extends StatelessWidget {
   final String title;
