@@ -8,7 +8,7 @@ import 'package:modern_it_homepage/ui/widgets/navigation_bar/navigation_bar.dart
 import 'package:modern_it_homepage/ui/widgets/navigation_drawer/navigation_drawer.dart';
 import 'package:responsive_builder/responsive_builder.dart';
 
-import 'file:///C:/Projects/modern_it_homepage/lib/ui/widgets/layout_template/centered_view.dart';
+import 'package:modern_it_homepage/ui/widgets/layout_template/centered_view.dart';
 
 class LayoutTemplate extends StatelessWidget {
   @override
