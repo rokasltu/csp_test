@@ -5,6 +5,7 @@ import 'package:modern_it_homepage/ui/widgets/layout_template/layout_template.da
 import 'locator.dart';
 
 void main() {
+
   setupLocator();
   runApp(MyApp());
 }
@@ -12,6 +13,7 @@ void main() {
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+
     return MaterialApp(
       title: 'Modern IT',
       theme: ThemeData(
