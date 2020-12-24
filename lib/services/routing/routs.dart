@@ -18,6 +18,7 @@ Route<dynamic> generateRoute(RouteSettings settings) {
     case ContactUsRoute:
       return _getPageRoute(PageContentView(contactUsCaption, contactUsDetail));
     default:
+      return _getPageRoute(PageContentView('', ''));
   }
 }
 
