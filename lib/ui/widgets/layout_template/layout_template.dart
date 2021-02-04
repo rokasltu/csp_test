@@ -22,7 +22,7 @@ class LayoutTemplate extends StatelessWidget {
             body: Container(
               decoration: BoxDecoration(
                 image: DecorationImage(
-                  image: AssetImage(logo_path),
+                  image: AssetImage(background_img_path),
                   fit: BoxFit.none,
                 ),
               ),
