@@ -7,7 +7,6 @@ class PageDetails extends StatelessWidget {
   final String details;
   const PageDetails({this.caption, this.details});
 
-
   @override
   Widget build(BuildContext context) {
     return ResponsiveBuilder(

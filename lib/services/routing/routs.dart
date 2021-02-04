@@ -1,24 +1,30 @@
 import 'package:flutter/material.dart';
 import 'package:modern_it_homepage/ui/styles/common_names.dart';
-import 'package:modern_it_homepage/ui/widgets/layout_template/page_view.dart';
+import 'package:modern_it_homepage/ui/widgets/layout_template/page_details.dart';
 
 import 'route_names.dart';
 
 Route<dynamic> generateRoute(RouteSettings settings) {
   switch (settings.name) {
     case HomeRoute:
-      return _getPageRoute(PageContentView('', ''));
+      return _getPageRoute(PageDetails(
+        caption: '',
+        details: '',
+      ));
     case AboutRoute:
-      return _getPageRoute(PageContentView(aboutCaption, aboutDetail));
+      return _getPageRoute(
+          PageDetails(caption: aboutCaption, details: aboutDetail));
     case ClientsRoute:
-      return _getPageRoute(PageContentView(clientsCaption, clientsDetail));
+      return _getPageRoute(
+          PageDetails(caption: clientsCaption, details: clientsDetail));
     case WhatWeDoRoute:
       return _getPageRoute(
-          PageContentView(whatDoWeDoCaption, whatDoWeDoDetail));
+          PageDetails(caption: whatDoWeDoCaption, details: whatDoWeDoDetail));
     case ContactUsRoute:
-      return _getPageRoute(PageContentView(contactUsCaption, contactUsDetail));
+      return _getPageRoute(
+          PageDetails(caption: contactUsCaption, details: contactUsDetail));
     default:
-      return _getPageRoute(PageContentView('', ''));
+      return _getPageRoute(PageDetails(caption: '', details: ''));
   }
 }
 

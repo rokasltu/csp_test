@@ -15,12 +15,13 @@ class NavBarLogo extends StatelessWidget {
         locator<NavigationService>().navigateTo(HomeRoute);
       },
       child: Container(
-        child: ClipRRect(
-          child: Image.asset(
-            logo_path,
-            width: navbar_logo_width,
+        decoration: BoxDecoration(
+          image: DecorationImage(
+            image: AssetImage('images/logo.png'),
+            fit: BoxFit.cover,
           ),
         ),
+        width: navbar_logo_width,
       ),
     ));
   }
