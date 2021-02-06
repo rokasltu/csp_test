@@ -28,7 +28,7 @@ flutter:
 
   assets:
     - assets/images/logo.png
-    - assets/images/logo2.png
+    - assets/images/logo-original.png
     - assets/images/office-865091_1920.jpg
 
   fonts:

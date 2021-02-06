@@ -10,19 +10,18 @@ class NavBarLogo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Material(
+        color: Colors.red.withOpacity(0),
         child: InkWell(
-      onTap: () {
-        locator<NavigationService>().navigateTo(HomeRoute);
-      },
-      child: Container(
-        decoration: BoxDecoration(
-          image: DecorationImage(
-            image: AssetImage('images/logo.png'),
-            fit: BoxFit.cover,
+          onTap: () {
+            locator<NavigationService>().navigateTo(HomeRoute);
+          },
+          child: Container(
+            child: Image.asset(
+              logo_path,
+              fit: BoxFit.fitWidth,
+            ),
+            width: navbar_logo_width,
           ),
-        ),
-        width: navbar_logo_width,
-      ),
-    ));
+        ));
   }
 }
