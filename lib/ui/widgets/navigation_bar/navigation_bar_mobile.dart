@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:modern_it_homepage/ui/styles/app_colors.dart';
 import 'package:modern_it_homepage/ui/widgets/navigation_bar/navbar_logo.dart';
 
 class NavigationBarMobile extends StatelessWidget {
@@ -12,7 +13,7 @@ class NavigationBarMobile extends StatelessWidget {
         children: [
           IconButton(
             icon: Icon(Icons.menu),
-            color: Colors.blue,
+            color: primaryColor,
             onPressed: () {
               return Scaffold.of(context).openDrawer();
             },

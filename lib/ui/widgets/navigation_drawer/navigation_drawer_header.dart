@@ -6,20 +6,16 @@ class NavigationDrawerHeader extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       height: 150,
-      color: primaryColor,
+      color: mainColor,
       alignment: Alignment.center,
       child: Column(
         mainAxisSize: MainAxisSize.min,
         children: [
           Text(
-            'SKILL UP NOW',
+            'Modern IT',
             style: TextStyle(
                 fontSize: 18, fontWeight: FontWeight.w800, color: Colors.white),
           ),
-          Text(
-            'TAP HERE',
-            style: TextStyle(color: Colors.white),
-          )
         ],
       ),
     );

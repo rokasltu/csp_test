@@ -19,6 +19,7 @@ class MyApp extends StatelessWidget {
               .textTheme
               .apply(fontFamily: 'Open Sans', bodyColor: primaryColor)),
       home: LayoutTemplate(),
+      color: primaryColor,
     );
   }
 }

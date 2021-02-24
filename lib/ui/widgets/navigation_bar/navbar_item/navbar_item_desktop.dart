@@ -31,8 +31,8 @@ class NavBarItemTabletDesktop extends ProviderWidget<NavBarItemModel> {
             ],
           ),
         ),
-        padding: const EdgeInsets.fromLTRB(24, 12, 24, 12),
-        child: Text(model.title, style: TextStyle(fontSize: 20)),
+        padding: const EdgeInsets.fromLTRB(18, 12, 18, 12),
+        child: Text(model.title, style: TextStyle(fontSize: 18)),
       ),
     );
   }

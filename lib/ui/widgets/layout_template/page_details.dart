@@ -19,7 +19,7 @@ class PageDetails extends StatelessWidget {
         return Container(
           width: 600,
           child: FittedBox(
-            fit: BoxFit.fitHeight,
+            fit: BoxFit.none,
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               mainAxisAlignment: MainAxisAlignment.center,

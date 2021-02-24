@@ -3,9 +3,8 @@ import 'package:modern_it_homepage/ui/widgets/navigation_bar/navbar_item/navbar_
 
 class DrawerItem extends StatelessWidget {
   final String title;
-  final IconData icon;
   final String navigationPath;
-  const DrawerItem(this.title, this.icon, this.navigationPath);
+  const DrawerItem(this.title, this.navigationPath);
 
   @override
   Widget build(BuildContext context) {
@@ -13,11 +12,8 @@ class DrawerItem extends StatelessWidget {
       padding: const EdgeInsets.only(left: 5, top: 60),
       child: Row(
         children: [
-          Icon(icon),
-          SizedBox(
-            width: 5,
-          ),
-          NavBarItem(title, navigationPath)
+          SizedBox(width: 5),
+          NavBarItem(title, navigationPath),
         ],
       ),
     );

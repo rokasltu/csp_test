@@ -13,7 +13,7 @@ class NavigationBarTablet extends StatelessWidget {
         child: FittedBox(
           fit: BoxFit.fitWidth,
           child: Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
               NavBarLogo(),
               Row(

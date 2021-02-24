@@ -9,32 +9,24 @@ class NavigationBarDesktop extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-        height: 100,
-        child: FittedBox(
-          fit: BoxFit.fitWidth,
-          child: Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+      height: 100,
+      child: Row(
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        children: [
+          NavBarLogo(),
+          Row(
+            mainAxisSize: MainAxisSize.min,
             children: [
-              NavBarLogo(),
-              Row(
-                mainAxisSize: MainAxisSize.min,
-                children: [
-                  NavBarItem(aboutCaption, AboutRoute),
-                  SizedBox(
-                    width: 21,
-                  ),
-                  NavBarItem(whatDoWeDoCaption, WhatWeDoRoute),
-                  SizedBox(
-                    width: 21,
-                  ),
-                  NavBarItem(clientsCaption, ClientsRoute),
-                  SizedBox(
-                    width: 21,
-                  ),
-                ],
-              )
+              NavBarItem(aboutCaption, AboutRoute),
+              SizedBox(width: 20),
+              NavBarItem(whatDoWeDoCaption, WhatWeDoRoute),
+              SizedBox(width: 20),
+              NavBarItem(clientsCaption, ClientsRoute),
+              SizedBox(width: 20),
             ],
-          ),
-        ));
+          )
+        ],
+      ),
+    );
   }
 }
