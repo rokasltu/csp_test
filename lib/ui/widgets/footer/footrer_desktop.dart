@@ -8,9 +8,20 @@ class FooterDesktop extends StatelessWidget {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
-          SelectableText('Address: Smolensko g. 10D-35, LT-03234, Vilnius'),
-          SelectableText('email: info<at>modernit.space'),
-          SelectableText('mob.: +370 682 04909')
+          SelectableText(
+            'Address: Smolensko g. 10D-35, LT-03234, Vilnius',
+            style: TextStyle(letterSpacing: 1.2),
+          ),
+          SelectableText(
+            'email: info<at>modernit.space',
+            style: TextStyle(letterSpacing: 1.2),
+          ),
+          SelectableText(
+            'mob.: +370 682 04909',
+            style: TextStyle(
+                color: Color.fromRGBO(40, 36, 137, 1),
+                fontWeight: FontWeight.bold),
+          )
         ],
       ),
     );
