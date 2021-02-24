@@ -18,24 +18,28 @@ class PageDetails extends StatelessWidget {
 
         return Container(
           width: 600,
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: <Widget>[
-              Text(
-                caption,
-                style: titleTextStyle(sizingInformation.deviceScreenType),
-                textAlign: textAlignment,
-              ),
-              SizedBox(
-                height: 30,
-              ),
-              Text(
-                details,
-                style: descriptionTextStyle(sizingInformation.deviceScreenType),
-                textAlign: textAlignment,
-              )
-            ],
+          child: FittedBox(
+            fit: BoxFit.fitHeight,
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: <Widget>[
+                Text(
+                  caption,
+                  style: titleTextStyle(sizingInformation.deviceScreenType),
+                  textAlign: textAlignment,
+                ),
+                SizedBox(
+                  height: 30,
+                ),
+                Text(
+                  details,
+                  style:
+                      descriptionTextStyle(sizingInformation.deviceScreenType),
+                  textAlign: textAlignment,
+                )
+              ],
+            ),
           ),
         );
       },

@@ -7,10 +7,7 @@ import 'route_names.dart';
 Route<dynamic> generateRoute(RouteSettings settings) {
   switch (settings.name) {
     case HomeRoute:
-      return _getPageRoute(PageDetails(
-        caption: '',
-        details: '',
-      ));
+      return _getPageRoute(PageDetails(caption: '', details: ''));
     case AboutRoute:
       return _getPageRoute(
           PageDetails(caption: aboutCaption, details: aboutDetail));

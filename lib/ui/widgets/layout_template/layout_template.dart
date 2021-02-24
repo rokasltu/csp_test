@@ -4,6 +4,7 @@ import 'package:modern_it_homepage/services/navigation_service.dart';
 import 'package:modern_it_homepage/services/routing/route_names.dart';
 import 'package:modern_it_homepage/services/routing/routs.dart';
 import 'package:modern_it_homepage/ui/styles/logo.dart';
+import 'package:modern_it_homepage/ui/widgets/footer/footer.dart';
 import 'package:modern_it_homepage/ui/widgets/navigation_bar/navigation_bar.dart';
 import 'package:modern_it_homepage/ui/widgets/navigation_drawer/navigation_drawer.dart';
 import 'package:responsive_builder/responsive_builder.dart';
@@ -23,7 +24,7 @@ class LayoutTemplate extends StatelessWidget {
               decoration: BoxDecoration(
                 image: DecorationImage(
                   image: AssetImage(background_img_path),
-                  fit: BoxFit.none,
+                  fit: BoxFit.cover,
                 ),
               ),
               child: CenteredView(
@@ -36,7 +37,8 @@ class LayoutTemplate extends StatelessWidget {
                         onGenerateRoute: generateRoute,
                         initialRoute: HomeRoute,
                       ),
-                    )
+                    ),
+                    Footer(),
                   ],
                 ),
               ),
