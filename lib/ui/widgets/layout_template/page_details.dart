@@ -55,8 +55,8 @@ class PageDetails extends StatelessWidget {
                       content: ContactusDialog(),
                       textConfirm: 'Send',
                       confirmTextColor: Colors.white,
-                      onConfirm: () => sendMessage(
-                          contactusController.to, contactusController.message),
+                      onConfirm: () => sendMessage(contactusController.from,
+                          contactusController.message),
                       onCancel: () => Get.back(),
                     );
                   },
@@ -89,13 +89,15 @@ class PageDetails extends StatelessWidget {
     );
   }
 
-  void sendMessage(String to, String message) async {
+  void sendMessage(String from, String message) async {
     final subject = 'Hello from Modern IT webpage!';
     await FirebaseFirestore.instance.collection('mail').doc().set({
-      'to': to,
+      'to': 'info@modernit.space',
       'message': {
+        'from': from,
+        'reply-to': from,
         'subject': subject,
-        'html': message,
+        'html': 'From: ' + from + '.</br>' + message,
       },
     });
     Get.back();

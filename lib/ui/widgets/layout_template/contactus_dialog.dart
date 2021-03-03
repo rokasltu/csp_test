@@ -9,9 +9,9 @@ class ContactusDialog extends GetWidget<ContactusController> {
       padding: EdgeInsets.all(10),
       child: Column(children: [
         TextFormField(
-          onChanged: (value) => controller.to = value,
+          onChanged: (value) => controller.from = value,
           decoration: InputDecoration(
-              labelText: 'to: ', labelStyle: TextStyle(color: Colors.white)),
+              labelText: 'from: ', labelStyle: TextStyle(color: Colors.white)),
         ),
         TextFormField(
           maxLines: 5,
