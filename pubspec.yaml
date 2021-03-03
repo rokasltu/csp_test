@@ -24,14 +24,14 @@ flutter:
   uses-material-design: true
 
   assets:
-    - assets/images/logo.png
-    - assets/images/logo-original.png
-    - assets/images/office-865091_1920.jpg
+    - resources/images/logo.png
+    - resources/images/logo-original.png
+    - resources/images/office-865091_1920.jpg
 
   fonts:
     - family: Open Sans
       fonts:
-        - asset: assets/fonts/OpenSans-Regular.ttf
+        - asset: resources/fonts/OpenSans-Regular.ttf
           weight: 800
-        - asset: assets/fonts/OpenSans-ExtraBold.ttf
+        - asset: resources/fonts/OpenSans-ExtraBold.ttf
           weight: 400
