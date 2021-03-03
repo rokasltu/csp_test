@@ -4,6 +4,7 @@ class FooterTablet extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
+        height: 50,
         width: 480,
         child: FittedBox(
           fit: BoxFit.none,
