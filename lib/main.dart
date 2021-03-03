@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:modern_it_homepage/ui/styles/app_colors.dart';
 import 'package:modern_it_homepage/ui/widgets/layout_template/layout_template.dart';
 
@@ -12,7 +13,7 @@ void main() {
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return GetMaterialApp(
       title: 'Modern IT',
       theme: ThemeData(
           textTheme: Theme.of(context)
