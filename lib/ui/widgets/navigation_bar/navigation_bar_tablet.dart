@@ -13,26 +13,20 @@ class NavigationBarTablet extends StatelessWidget {
         child: FittedBox(
           fit: BoxFit.fitWidth,
           child: Row(
-            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               NavBarLogo(),
-              Row(
-                mainAxisSize: MainAxisSize.min,
-                children: [
-                  NavBarItem(aboutCaption, AboutRoute),
-                  SizedBox(
-                    width: 21,
-                  ),
-                  NavBarItem(whatDoWeDoCaption, WhatWeDoRoute),
-                  SizedBox(
-                    width: 21,
-                  ),
-                  NavBarItem(clientsCaption, ClientsRoute),
-                  SizedBox(
-                    width: 21,
-                  ),
-                ],
-              )
+              SizedBox(width: 20),
+              NavBarItem(homeCaption, HomeRoute),
+              SizedBox(width: 20),
+              NavBarItem(whatDoWeDoCaption, WhatWeDoRoute),
+              SizedBox(width: 20),
+              NavBarItem(howDoWeDoButtonCaption, HowWeDoToute),
+              SizedBox(width: 20),
+              NavBarItem(aboutCaption, AboutRoute),
+              SizedBox(width: 20),
+              NavBarItem(contactUsCaption, ContactUsRoute),
+              SizedBox(width: 20),
             ],
           ),
         ));

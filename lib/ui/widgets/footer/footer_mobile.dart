@@ -11,7 +11,7 @@ class FooterMobile extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               SelectableText('Address: Smolensko g. 10D-35, LT-03234, Vilnius'),
-              SelectableText('email: info<at>modernit.space'),
+              SelectableText('email: info@modernit.space'),
               SelectableText('mob.: +370 682 04909')
             ],
           ),

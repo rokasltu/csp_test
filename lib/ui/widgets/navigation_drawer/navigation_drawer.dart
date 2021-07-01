@@ -19,9 +19,11 @@ class NavigationDrawer extends StatelessWidget {
       child: Column(
         children: [
           NavigationDrawerHeader(),
-          DrawerItem(aboutCaption, AboutRoute),
+          DrawerItem(homeCaption, HomeRoute),
           DrawerItem(whatDoWeDoCaption, WhatWeDoRoute),
-          DrawerItem(clientsCaption, ClientsRoute),
+          DrawerItem(howDoWeDoButtonCaption, HowWeDoToute),
+          DrawerItem(aboutCaption, AboutRoute),
+          DrawerItem(contactUsCaption, ContactUsRoute),
         ],
       ),
     );

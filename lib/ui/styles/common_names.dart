@@ -1,12 +1,23 @@
 const String homeCaption = "Home";
 const String aboutCaption = "Who are we";
 const String aboutDetail =
-    "Programmers turned into a team in order to make modern websites and applications. ";
+    "Programmers turned into a team in order to make modern websites and applications.";
 const String whatDoWeDoCaption = "What do we do";
 const String whatDoWeDoDetail =
-    "Websites (build with Flutter framework or standard HTML)\nApplications (build with Flutter framework)\nProject management methodology - agile";
-const String clientsCaption = "Our clients";
-const String clientsDetail =
-    "Our clients: \nJane Mc Lelland\nPraugas\nInkuboksas";
-const String contactUsCaption = "Contact us";
-const String contactUsDetail = "Contact us";
+    "Nowadays, your website is your online vitrine, making sure that you're visible.\n\n" +
+        "While the world is getting ready for the post pandemic era, all companies from SMEs to large corporation cannot ignore being proactively online anymore.\n\n" +
+        "Our company offers the following services:\n\n" +
+        "• Applications development compatible with all most commonly used operating systems for desktop and mobile.\n" +
+        "• Website development, using a CMS or built from scratch\n" +
+        "• Business Consulting related to NCITs\n" +
+        "• Project management\n" +
+        "Feel free to contact us for more information.";
+const String howDoWeDoButtonCaption = "How do we do";
+const String howDoWeDoCaption = "We use the latest technologies";
+const String howWeDoDetail = "Thank you very much for your consideration.\n" +
+    "We use stable and high end technologies to adjust to the client needs and possibilities.";
+const String contactUsCaption = "Contacts";
+const String contactUsDetail = "+370 682 04909\n\n" +
+    "info@modernit.space\n\n" +
+    "Smolensko g.10D-35\n\n" +
+    "LT-03234,Vilnius, Lithuania";

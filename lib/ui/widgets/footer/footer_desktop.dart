@@ -13,7 +13,7 @@ class FooterDesktop extends StatelessWidget {
             style: TextStyle(letterSpacing: 1.2),
           ),
           SelectableText(
-            'email: info<at>modernit.space',
+            'email: info@modernit.space',
             style: TextStyle(letterSpacing: 1.2),
           ),
           SelectableText(

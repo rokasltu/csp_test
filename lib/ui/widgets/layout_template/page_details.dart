@@ -24,7 +24,7 @@ class PageDetails extends StatelessWidget {
         return Container(
           width: 600,
           child: FittedBox(
-            fit: BoxFit.none,
+            fit: BoxFit.contain,
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               mainAxisAlignment: MainAxisAlignment.center,
@@ -46,7 +46,7 @@ class PageDetails extends StatelessWidget {
                 SizedBox(
                   height: 30,
                 ),
-                RaisedButton(
+                ElevatedButton(
                   onPressed: () {
                     final contactusController = Get.put(ContactusController());
                     Get.defaultDialog(
@@ -60,11 +60,13 @@ class PageDetails extends StatelessWidget {
                       onCancel: () => Get.back(),
                     );
                   },
-                  textColor: Colors.white,
-                  color: Colors.transparent,
-                  padding: EdgeInsets.all(0),
-                  shape: RoundedRectangleBorder(
-                    borderRadius: new BorderRadius.circular(18.0),
+                  style: ElevatedButton.styleFrom(
+                    onPrimary: Colors.white,
+                    primary: Colors.transparent,
+                    padding: EdgeInsets.all(0),
+                    shape: RoundedRectangleBorder(
+                      borderRadius: new BorderRadius.circular(18.0),
+                    ),
                   ),
                   child: Container(
                     decoration: BoxDecoration(
@@ -80,7 +82,10 @@ class PageDetails extends StatelessWidget {
                     padding: const EdgeInsets.fromLTRB(18, 12, 18, 12),
                     child: Text('Contact us', style: TextStyle(fontSize: 18)),
                   ),
-                )
+                ),
+                SizedBox(
+                  height: 30,
+                ),
               ],
             ),
           ),
