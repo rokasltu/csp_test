@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:modern_it_homepage/ui/styles/common_names.dart';
+import 'package:modern_it_homepage/ui/widgets/how_we_do_carousel/how_we_do_carousel.dart';
 import 'package:modern_it_homepage/ui/widgets/layout_template/page_details.dart';
 
 import 'route_names.dart';
@@ -11,9 +13,12 @@ Route<dynamic> generateRoute(RouteSettings settings) {
     case AboutRoute:
       return _getPageRoute(
           PageDetails(caption: aboutCaption, details: aboutDetail));
-    case HowWeDoToute:
-      return _getPageRoute(
-          PageDetails(caption: howDoWeDoCaption, details: howWeDoDetail));
+    case HowWeDoRoute:
+      return _getPageRoute(PageDetails(
+        caption: howDoWeDoCaption,
+        details: howWeDoDetail,
+        child: HowWeDoCarousel(),
+      ));
     case WhatWeDoRoute:
       return _getPageRoute(
           PageDetails(caption: whatDoWeDoCaption, details: whatDoWeDoDetail));
