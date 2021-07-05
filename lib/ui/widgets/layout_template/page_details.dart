@@ -27,7 +27,7 @@ class PageDetails extends StatelessWidget {
           child: SingleChildScrollView(
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
-              mainAxisAlignment: MainAxisAlignment.center,
+              mainAxisAlignment: MainAxisAlignment.start,
               children: <Widget>[
                 Text(
                   caption,
@@ -43,14 +43,12 @@ class PageDetails extends StatelessWidget {
                       descriptionTextStyle(sizingInformation.deviceScreenType),
                   textAlign: textAlignment,
                 ),
-                SizedBox(
-                  height: 30,
-                ),
+                SizedBox(height: 30),
                 child != null
-                    ? Column(children: [
-                        child,
-                        SizedBox(height: 30),
-                      ])
+                    ? Container(
+                        height: 600,
+                        child: child,
+                      )
                     : Container(height: 0, width: 0),
                 ElevatedButton(
                   onPressed: () {
