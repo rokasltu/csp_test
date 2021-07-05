@@ -21,7 +21,7 @@ class NavigationDrawer extends StatelessWidget {
           NavigationDrawerHeader(),
           DrawerItem(homeCaption, HomeRoute),
           DrawerItem(whatDoWeDoCaption, WhatWeDoRoute),
-          DrawerItem(howDoWeDoButtonCaption, HowWeDoToute),
+          DrawerItem(howDoWeDoButtonCaption, HowWeDoRoute),
           DrawerItem(aboutCaption, AboutRoute),
           DrawerItem(contactUsCaption, ContactUsRoute),
         ],

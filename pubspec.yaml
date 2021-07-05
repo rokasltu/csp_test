@@ -9,6 +9,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  carousel_slider: ^4.0.0
   cloud_firestore: ^2.3.0
   get: ^4.1.4
   get_it: ^7.1.4

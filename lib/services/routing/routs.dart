@@ -11,7 +11,7 @@ Route<dynamic> generateRoute(RouteSettings settings) {
     case AboutRoute:
       return _getPageRoute(
           PageDetails(caption: aboutCaption, details: aboutDetail));
-    case HowWeDoToute:
+    case HowWeDoRoute:
       return _getPageRoute(
           PageDetails(caption: howDoWeDoCaption, details: howWeDoDetail));
     case WhatWeDoRoute:

@@ -27,7 +27,7 @@ class NavigationBarDesktop extends StatelessWidget {
                 SizedBox(width: 20),
                 NavBarItem(whatDoWeDoCaption, WhatWeDoRoute),
                 SizedBox(width: 20),
-                NavBarItem(howDoWeDoButtonCaption, HowWeDoToute),
+                NavBarItem(howDoWeDoButtonCaption, HowWeDoRoute),
                 SizedBox(width: 20),
                 NavBarItem(aboutCaption, AboutRoute),
                 SizedBox(width: 20),

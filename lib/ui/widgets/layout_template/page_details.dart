@@ -10,7 +10,8 @@ import 'contactus_dialog.dart';
 class PageDetails extends StatelessWidget {
   final String caption;
   final String details;
-  const PageDetails({this.caption, this.details});
+  final Widget child;
+  const PageDetails({this.caption, this.details, this.child});
 
   @override
   Widget build(BuildContext context) {
@@ -23,8 +24,7 @@ class PageDetails extends StatelessWidget {
 
         return Container(
           width: 600,
-          child: FittedBox(
-            fit: BoxFit.contain,
+          child: SingleChildScrollView(
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               mainAxisAlignment: MainAxisAlignment.center,
@@ -46,6 +46,12 @@ class PageDetails extends StatelessWidget {
                 SizedBox(
                   height: 30,
                 ),
+                child != null
+                    ? Column(children: [
+                        child,
+                        SizedBox(height: 30),
+                      ])
+                    : Container(height: 0, width: 0),
                 ElevatedButton(
                   onPressed: () {
                     final contactusController = Get.put(ContactusController());
