@@ -5,19 +5,19 @@ import 'package:url_launcher/url_launcher.dart';
 final objects = [
   CarouselObject(
       name: ' This Web Page ',
-      path: 'img/mit.png',
+      path: 'assets/img/mit.png',
       link: 'https://modernit.space/'),
   CarouselObject(
       name: ' Simple Web Page ',
-      path: 'img/wl1.png',
+      path: 'assets/img/wl1.png',
       link: 'https://wl-project-1.web.app/'),
   CarouselObject(
       name: ' Progressive Web Application ',
-      path: 'img/moneycalculator-app.png',
+      path: 'assets/img/moneycalculator-app.png',
       link: 'https://free-money-calculator.web.app/'),
   CarouselObject(
       name: ' Web Page with Progressive Application ',
-      path: 'img/wl-app.png',
+      path: 'assets/img/wl-app.png',
       link: 'https://whitelabel-application.web.app/'),
 ];
 

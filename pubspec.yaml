@@ -27,6 +27,10 @@ flutter:
     - resources/images/logo.png
     - resources/images/logo-original.png
     - resources/images/office-865091_1920.jpg
+    - assets/img/moneycalculator-app.png
+    - assets/img/mit.png
+    - assets/img/wl-app.png
+    - assets/img/wl1.png
 
   fonts:
     - family: Open Sans
