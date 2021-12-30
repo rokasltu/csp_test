@@ -17,7 +17,8 @@ const String howDoWeDoCaption = "We use the latest technologies";
 const String howWeDoDetail = "Thank you very much for your consideration.\n" +
     "We use stable and high end technologies to adjust to the client needs and possibilities.";
 const String contactUsCaption = "Contacts";
-const String contactUsDetail = "+370 682 04909\n\n" +
+const String contactUsDetail = "Modernios Informacinės Technologijos, UAB\n\n" +
+    "305640231\n\n" +
+    "+370 682 04909\n\n" +
     "info@modernit.space\n\n" +
-    "Smolensko g.10D-35\n\n" +
-    "LT-03234,Vilnius, Lithuania";
+    "Smolensko g.10D-35, LT-03234,Vilnius, Lithuania";

@@ -5,11 +5,10 @@ import 'package:modern_it_homepage/services/routing/route_names.dart';
 import 'package:modern_it_homepage/services/routing/routs.dart';
 import 'package:modern_it_homepage/ui/styles/logo.dart';
 import 'package:modern_it_homepage/ui/widgets/footer/footer.dart';
+import 'package:modern_it_homepage/ui/widgets/layout_template/centered_view.dart';
 import 'package:modern_it_homepage/ui/widgets/navigation_bar/navigation_bar.dart';
 import 'package:modern_it_homepage/ui/widgets/navigation_drawer/navigation_drawer.dart';
 import 'package:responsive_builder/responsive_builder.dart';
-
-import 'package:modern_it_homepage/ui/widgets/layout_template/centered_view.dart';
 
 class LayoutTemplate extends StatelessWidget {
   @override
@@ -30,7 +29,7 @@ class LayoutTemplate extends StatelessWidget {
               child: CenteredView(
                 child: Column(
                   children: [
-                    NavigationBar(),
+                    CustomNavigationBar(),
                     Expanded(
                       child: Navigator(
                         key: locator<NavigationService>().navigatorKey,
