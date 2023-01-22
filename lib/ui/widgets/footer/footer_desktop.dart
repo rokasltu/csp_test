@@ -15,23 +15,23 @@ class FooterDesktop extends StatelessWidget {
             runSpacing: 5,
             children: [
               SelectableText(
-                'Modernios Informacinės Technologijos, UAB',
+                'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
                 style: TextStyle(letterSpacing: 1.2),
               ),
               SelectableText(
-                '| 305640231',
+                'XXXXXXXXXXXXX',
                 style: TextStyle(letterSpacing: 1.2),
               ),
               SelectableText(
-                '| Smolensko g. 10D-35, LT-03234, Vilnius',
+                'XXXXXXXXXXXXXXXXXXXXXXX',
                 style: TextStyle(letterSpacing: 1.2),
               ),
               SelectableText(
-                '| info@modernit.space',
+                'XXXXXXXXXXXXXXXXXXXXXXXXXXXX',
                 style: TextStyle(letterSpacing: 1.2),
               ),
               SelectableText(
-                '| +370 682 04909',
+                'XXXXXXXXXXXXXXXXXXXXXXXXXXX',
                 style: TextStyle(
                     color: Color.fromRGBO(40, 36, 137, 1),
                     fontWeight: FontWeight.bold),
