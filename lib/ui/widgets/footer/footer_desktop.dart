@@ -15,7 +15,7 @@ class FooterDesktop extends StatelessWidget {
             runSpacing: 5,
             children: [
               SelectableText(
-                'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
+                'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXAAA',
                 style: TextStyle(letterSpacing: 1.2),
               ),
               SelectableText(
