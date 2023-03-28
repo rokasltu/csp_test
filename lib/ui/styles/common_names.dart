@@ -2,7 +2,7 @@ const String homeCaption = "Home";
 const String aboutCaption = "Who are we";
 const String aboutDetail =
     "test";
-const String whatDoWeDoCaption = "test";
+const String whatDoWeDoCaption = "test1";
 const String whatDoWeDoDetail =
     "N more information.";
 const String howDoWeDoButtonCaption = "How do we do";
