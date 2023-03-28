@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:modern_it_homepage/datamodels/navbar_item_model.dart';
-import 'package:modern_it_homepage/locator.dart';
-import 'package:modern_it_homepage/services/navigation_service.dart';
+
+import '../../../../datamodels/navbar_item_model.dart';
+import '../../../../locator.dart';
+import '../../../../services/navigation_service.dart';
+
 
 class NavBarItemTabletDesktop extends StatelessWidget {
   final NavBarItemModel model;

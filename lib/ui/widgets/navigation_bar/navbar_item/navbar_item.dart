@@ -1,11 +1,13 @@
+import 'package:cool_web/extensions/hover_extensions.dart';
 import 'package:flutter/material.dart';
-import 'package:modern_it_homepage/datamodels/navbar_item_model.dart';
-import 'package:modern_it_homepage/locator.dart';
-import 'package:modern_it_homepage/services/navigation_service.dart';
+
 import 'package:provider/provider.dart';
 import 'package:responsive_builder/responsive_builder.dart';
-import 'package:modern_it_homepage/extensions/hover_extensions.dart';
 
+
+import '../../../../datamodels/navbar_item_model.dart';
+import '../../../../locator.dart';
+import '../../../../services/navigation_service.dart';
 import 'navbar_item_desktop.dart';
 import 'navbar_item_mobile.dart';
 

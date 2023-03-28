@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:modern_it_homepage/locator.dart';
-import 'package:modern_it_homepage/services/navigation_service.dart';
-import 'package:modern_it_homepage/services/routing/route_names.dart';
-import 'package:modern_it_homepage/ui/styles/logo.dart';
+
+import '../../../locator.dart';
+import '../../../services/navigation_service.dart';
+import '../../../services/routing/route_names.dart';
+import '../../styles/logo.dart';
+
 
 class NavBarLogo extends StatelessWidget {
   const NavBarLogo({Key key}) : super(key: key);

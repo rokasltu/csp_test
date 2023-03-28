@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:modern_it_homepage/ui/styles/common_names.dart';
-import 'package:modern_it_homepage/ui/widgets/how_we_do_carousel/how_we_do_carousel.dart';
-import 'package:modern_it_homepage/ui/widgets/layout_template/page_details.dart';
 
+import '../../ui/styles/common_names.dart';
+import '../../ui/widgets/how_we_do_carousel/how_we_do_carousel.dart';
+import '../../ui/widgets/layout_template/page_details.dart';
 import 'route_names.dart';
 
 Route<dynamic> generateRoute(RouteSettings settings) {

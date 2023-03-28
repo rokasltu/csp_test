@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:modern_it_homepage/controllers/contactus_controller.dart';
+
+
+import '../../../controllers/contactus_controller.dart';
 
 class ContactusDialog extends GetWidget<ContactusController> {
   @override

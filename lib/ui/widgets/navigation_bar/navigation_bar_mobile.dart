@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:modern_it_homepage/ui/styles/app_colors.dart';
-import 'package:modern_it_homepage/ui/widgets/navigation_bar/navbar_logo.dart';
+
+import '../../styles/app_colors.dart';
+import 'navbar_logo.dart';
+
 
 class NavigationBarMobile extends StatelessWidget {
   @override

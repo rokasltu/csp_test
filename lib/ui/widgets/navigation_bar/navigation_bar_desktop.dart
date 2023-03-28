@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:modern_it_homepage/services/routing/route_names.dart';
-import 'package:modern_it_homepage/ui/styles/common_names.dart';
 
-import 'package:modern_it_homepage/ui/widgets/navigation_bar/navbar_item/navbar_item.dart';
+import '../../../services/routing/route_names.dart';
+import '../../styles/common_names.dart';
+import 'navbar_item/navbar_item.dart';
 import 'navbar_logo.dart';
 
 class NavigationBarDesktop extends StatelessWidget {

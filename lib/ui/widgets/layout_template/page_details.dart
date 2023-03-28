@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:modern_it_homepage/controllers/contactus_controller.dart';
-import 'package:modern_it_homepage/ui/styles/text_styles.dart';
 import 'package:responsive_builder/responsive_builder.dart';
 import 'package:get/get.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 
+import '../../../controllers/contactus_controller.dart';
+import '../../styles/text_styles.dart';
 import 'contactus_dialog.dart';
 
 class PageDetails extends StatelessWidget {

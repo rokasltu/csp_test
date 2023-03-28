@@ -1,5 +1,6 @@
+import 'package:cool_web/services/navigation_service.dart';
 import 'package:get_it/get_it.dart';
-import 'package:modern_it_homepage/services/navigation_service.dart';
+
 
 GetIt locator = GetIt.instance;
 

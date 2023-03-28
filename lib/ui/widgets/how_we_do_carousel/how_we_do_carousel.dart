@@ -4,21 +4,21 @@ import 'package:url_launcher/url_launcher.dart';
 
 final objects = [
   CarouselObject(
-      name: ' This Web Page ',
+      name: ' test1 ',
       path: 'assets/img/mit.png',
-      link: 'https://modernit.space/'),
+      link: 'https://rokas.website/'),
   CarouselObject(
-      name: ' Simple Web Page ',
+      name: ' test2 ',
       path: 'assets/img/wl1.png',
-      link: 'https://wl-project-1.web.app/'),
+      link: '/'),
   CarouselObject(
-      name: ' Progressive Web Application ',
+      name: ' test3 ',
       path: 'assets/img/moneycalculator-app.png',
-      link: 'https://free-money-calculator.web.app/'),
+      link: '/'),
   CarouselObject(
-      name: ' Web Page with Progressive Application ',
+      name: ' test4 ',
       path: 'assets/img/wl-app.png',
-      link: 'https://whitelabel-application.web.app/'),
+      link: '/'),
 ];
 
 class HowWeDoCarousel extends StatelessWidget {

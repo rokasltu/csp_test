@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:modern_it_homepage/datamodels/navbar_item_model.dart';
 
+
+import '../../../../datamodels/navbar_item_model.dart';
 class NavBarItemMobile extends StatelessWidget {
   final NavBarItemModel model;
 
